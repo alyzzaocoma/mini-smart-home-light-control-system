@@ -25,7 +25,7 @@ There are 3 main parts that are communicating to each other:
 ```
 When you press a button on the Arduino, it sends a character (`'1'`, `'2'`, `'3'`, or `'4'`) over Serial to the Wemos. The Wemos toggles the corresponding light and updates the database via an HTTP request. The Wemos also polls the database every second, so if someone changes a light from the Android app, the physical light follows. The Android app uses the same PHP endpoints (`getLightStatus.php` and `setLightStatus.php`) to read and toggle lights over the local WiFi network.
 
-This project uses a house model, specifically the 3D Puzzle Dollhouse Doll House Small you can buy online. Combined together using either cardboard/foam board or wood if available. <br>
+This project uses a house model, specifically the 3D Puzzle Dollhouse Doll House Small you can buy online. Combined together using either cardboard/foam board or wood if available. <br><br>
 ![Exact product of 3D Puzzle Dollhouse](images/SHLC_Dollhouse.png)
 <br>
 ## Rooms
